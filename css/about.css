@@ -1,0 +1,40 @@
+.about-wrapper {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.about-wrapper .main {
+    flex:3 0px;
+    flex-grow: 3;
+}
+
+.about-wrapper .aside-1 {
+    flex:1 0px;
+    margin: auto;
+    padding: 0 2vw;
+    justify-content: space-evenly;
+}
+
+.aside-1 img {
+    margin: 0 auto 2vh;
+}
+
+.aside-1 a {
+    width:100%;
+}
+
+@media screen and (max-width:650px) {
+    .about-wrapper {
+        display: block;
+        margin: 2vh auto;
+        width: 85%;
+    }
+
+    .about-wrapper .aside-1 {
+        margin: auto;
+        text-align: center;
+    }
+}

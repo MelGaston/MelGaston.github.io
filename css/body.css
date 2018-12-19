@@ -1,0 +1,34 @@
+body {
+    margin:0 auto;
+    background-color: #F8F9FA;
+}
+
+section h2 {
+    font-family: var(--headerFont);
+    font-weight: 700;
+    text-transform: uppercase;
+    padding:1vh;
+}
+
+p {
+    font-family:var(--mainFont);
+    font-size:18px;
+    line-height:1.5em;
+}
+
+section {
+    margin:10vh auto;
+    max-width:1080px;
+    padding:2vh 4vw;
+}
+
+.divider {
+    width:100%;
+    background-color: #F8F9FA;
+    background-image: url("https://www.transparenttextures.com/patterns/shattered.png");
+    /* Parallax */
+    height:15vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+}

@@ -1,0 +1,19 @@
+.row {
+    margin: 25px 0;
+    display:block;
+    max-width: 1080px;
+}
+
+#email, #name {
+    display:inline-block;
+    width:48%;
+    margin-bottom: 2vh;
+}
+
+#name {
+    float: left;
+}
+
+#email {
+    float:right;
+}

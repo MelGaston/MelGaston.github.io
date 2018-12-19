@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css" type="text/css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light navbar-fixed-top">
+    <!-- <div id="navBox"> -->
+      <a class="navbar-brand">Mel Gaston</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul id="headerNav">
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item" id="home">
+            <a class="nav-link" href="#top">Home</a>
+          </li>
+        </ul>
+      </div>
+    <!-- </div> -->
+  </nav>
+  
+
+    <!-- JumboTron -->
+    <div class="jumbotron jumbotron-fluid" id="top">
+        <div class="container animated fadeInUpBig">
+          <h1 class="display-4">Mel Gaston</h1>
+          <p class="lead">Software Developer</p>
+        </div>
+    </div>
+
+    <!-- Portfolio content -->
+
+    <section id="portfolio">
+      <div class = "portfolio-wrapper">
+        <div class="imageContainer">
+          <a href="https://melgaston.github.io/projects/weekOne/index.html" target="_blank">
+            <img class="image" src="./assets/img/javascriptNow.png"/>
+            <div class="overlay">
+                <div class="text">Tutorial Site</div>
+            </div>
+          </a>
+        </div>
+        <div class="imageContainer">
+          <a href="" target="_blank">
+            <img class="image" src="./assets/img/spaceAPI.png"/>
+            <div class="overlay">
+              <div class="text">API Project</div>
+            </div>
+          </a>
+        </div>
+        <div class="imageContainer">
+          <a href="https://codepen.io/melgaston/full/mQgdEb" target="_blank">
+            <img class="image" src="./assets/img/critter.png"/>
+            <div class="overlay">
+              <div class="text">CSS Critter</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- About Content -->
+
+    <section id="about">
+      <div class="about-wrapper">
+        <div class="main">
+          <h2>About Mel</h2>
+          <p>
+            Cupcake ipsum dolor sit amet croissant oat cake chocolate. Jujubes cupcake jelly donut. Halvah cupcake oat cake jelly-o carrot cake sesame snaps I love. Chupa chups gummi bears I love muffin brownie chocolate.
+            <br/><br/>
+            Brownie powder brownie. Carrot cake icing bear claw donut danish carrot cake carrot cake jujubes. I love cookie bear claw. Liquorice soufflé chocolate cake oat cake sugar plum danish sugar plum muffin candy. Cake halvah chupa chups liquorice sesame snaps carrot cake powder chupa chups cake.
+          </p>
+        </div>
+        <div class="aside-1">
+          <img src="./assets/img/mel.png"/>
+          <a class="btn btn-outline-secondary" href="./assets/img/MelGaston_Resume.pdf" target="_blank">
+            View Resume
+          </a>
+        </div>
+      </div>
+    </section>
+ 
+    <div class="divider"></div>
+
+    <!-- FormSpree -->
+
+    <section id="contact">
+     <div class="container">
+       <div class="row">
+         <form action="https://formspree.io/mgaston1019@gmail.com" method="POST">
+         <div class="control-group">
+             <div class="form-group">
+               <input
+                 type="text"
+                 class="form-control"
+                 placeholder="Your Name"
+                 id="name"
+                 required
+                 data-validation-required-message="Please enter your name"
+                 name="name"
+                 >
+               <p class="help-block text-danger"></p>
+             </div>
+           </div>
+           <div class="control-group">
+             <div class="form-group">
+               <input
+                 type="email"
+                 class="form-control"
+                 placeholder="Your Email"
+                 id="email"
+                 required
+                 data-validation-required-message="Please enter your email"
+                 name="_replyto"
+               >
+               <p class="help-block text-danger"></p>
+             </div>
+           </div>
+          <div class="control-group">
+            <div class="form-group">
+               <textarea
+                 class="form-control"
+                 rows="5"
+                 placeholder="Your Message"
+                 id="message"
+                 required
+                 data-validation-required-message="Please leave a message"
+                 name="message"
+              ></textarea>
+               <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="text-center">
+             <div id="success"></div>
+             <button type="submit" class="btn btn-outline-secondary">
+              Send Message
+              <i class="far fa-paper-plane"></i>
+             </button>
+           </div>
+         </form>
+       </div>
+     </div>
+   </section>
+  <footer>
+    <ul id="footerNav">
+            <li><a href="https://www.linkedin.com/in/melanie-gaston/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/MelGaston" target="_blank"><i class="fab fa-github-square"></i></a></li>
+            <li><a href="https://twitter.com/No1_LikeGaston" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="https://www.instagram.com/52shadesofpizza/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+  </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
