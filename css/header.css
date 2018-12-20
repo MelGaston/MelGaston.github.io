@@ -15,7 +15,7 @@
 .jumbotron .container {
     border: 2px solid #ffffff;
     max-width: 540px;
-    padding: 5vh 0;
+    padding: 5vh 5vw;
 }
 
 .jumbotron h1 {

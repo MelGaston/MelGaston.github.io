@@ -21,8 +21,10 @@ footer {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: .4s ease;
 }
 
 #footerNav li a:hover {
     background-color: #851d50;
+    transition: .2s ease;
 }

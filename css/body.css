@@ -20,6 +20,8 @@ section {
     margin:10vh auto;
     max-width:1080px;
     padding:2vh 4vw;
+    padding-top: 5em;
+    margin-top: 0;
 }
 
 .divider {

@@ -1,13 +1,7 @@
-/* #navBox {
-    width:100%;
-    background-color:#F8F9FA;
-} */
-
 .navbar {
     width:100%;
     text-transform: uppercase;
     background-color:rgba(0, 0, 0, 0) !important;
-    max-width: 1080px;
     margin:0 auto;
     transition: background-color 300ms linear;
 }
@@ -17,7 +11,7 @@
     margin: 0;
     overflow: hidden;
     width:100%;
-    max-width: 1080px;
+    padding-left:0 !important;
 }
 
 #headerNav li {
@@ -28,7 +22,7 @@
     display: inline-block;
     color:#fff;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1em;
     text-decoration: none;
     font-weight: 700;
     transition: color 300ms linear;
@@ -55,6 +49,14 @@
     transition: color 300ms linear;
 }
 
+#headerNav li:last-child a {
+    padding-left:0;
+}
+
+#headerNav li:first-child a {
+    padding-right:0;
+}
+
 /* Responsive Customizations */
 
 .navbar-light .navbar-toggler {
@@ -62,8 +64,8 @@
     background-color: #F8F9FA;
 }
 
-@media screen and (max-width:500px) {
-    /* #headerNav li a {
-        display:block;
-    } */
+@media screen and (min-width:992px) {
+    .navbar {
+        padding:0.5% 5%;
+    }
 }
