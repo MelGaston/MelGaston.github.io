@@ -1,22 +1,17 @@
-.devIcons div {
-    display: inline-block;
-}
-
 .icon {
-    max-width:8vw;
+    max-width:8vw !important;
     transition:0.3s;
 }
 
 .icon:hover {
     transition: 0.3s;
     transform: scale(1.3);
-
 }
 
-#devIcons .row {
+#skills .row {
     display: flex !important;
 }
 
-#devIcons .col {
+#skills .col {
     text-align: center !important;
 }
