@@ -1,0 +1,22 @@
+.devIcons div {
+    display: inline-block;
+}
+
+.icon {
+    max-width:7vw;
+    transition:0.3s;
+}
+
+.icon:hover {
+    transition: 0.3s;
+    transform: scale(1.3);
+
+}
+
+#devIcons .row {
+    display: flex !important;
+}
+
+#devIcons .col {
+    text-align: center !important;
+}
