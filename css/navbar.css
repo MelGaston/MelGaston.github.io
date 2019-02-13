@@ -69,3 +69,10 @@
         padding:0.5% 5%;
     }
 }
+
+@media screen and (max-width:408px) {
+    #headerNav {
+        width:40%;
+        float:right;
+    }
+}
