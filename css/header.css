@@ -1,5 +1,6 @@
 .jumbotron {
     background: url("../assets/img/backgroundImage.jpg") no-repeat center;
+    background-size: cover;
     color:white;
     text-align:center;
     padding:28vh 0;
