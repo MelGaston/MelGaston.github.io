@@ -1,7 +1,8 @@
 .icon {
     max-width:7vw !important;
     transition:0.3s;
-    margin:3vh 0;
+    margin:2.5vh 0;
+    padding-bottom: 1.75vh;
 }
 
 .icon:hover {
@@ -16,6 +17,7 @@
     text-align:center;
     background-color:var(--gray);
     border-radius:.25rem;
+    font-family:var(--mainFont);
 }
 
 .bs-tooltip-auto[x-placement^=bottom] .arrow::before,
