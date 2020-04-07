@@ -1,0 +1,37 @@
+.icon {
+    max-width:7vw !important;
+    transition:0.3s;
+    margin:0.5vh 0;
+    padding: 1.75vh 0;
+}
+
+.icon:hover {
+    transition: 0.3s;
+    transform: scale(1.25);
+}
+
+.tooltip-inner {
+    max-width:200px;
+    padding:0.5vh 1vw;
+    color:#fff;
+    text-align:center;
+    background-color:var(--gray);
+    border-radius:.25rem;
+    font-family:var(--mainFont);
+}
+
+.bs-tooltip-auto[x-placement^=bottom] .arrow::before,
+.bs-tooltip-bottom .arrow::before {
+    border-bottom-color:var(--gray);
+}
+
+
+#skills .row {
+    display: flex !important;
+    justify-content: space-between;
+}
+
+#skills .col {
+    text-align: center !important;
+    max-width: 20%;
+}

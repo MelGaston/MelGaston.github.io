@@ -1,0 +1,16 @@
+:root {
+    --red:#E64162;
+    --orange: #F2A566;
+    --yellow: #ffc600;
+    --light-green: #689420;
+    --green: #1A792F;
+    --blue-green: #77A489;
+    --blue: #6E8898;
+    --purple: #6a00b2;
+    --brown: #8c7a51;
+    --gray: #464646;
+    --black: #0f1113;
+    --personal: #851d50;
+    --mainFont: 'Raleway', sans-serif;
+    --headerFont: 'Montserrat', sans-serif;
+}
